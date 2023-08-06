@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <style>
+        .parent {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        margin: 0;
+        font-family: 'Press Start 2P', cursive;
+        background-color: rgb(88, 0, 0)
+        }
+
+        .div1 { grid-area: 1 / 1 / 5 / 5;
+                background-color: rgb(161, 67, 97);
+                background-image:    url(./roulettebg.gif);
+            background-size:     contain;              
+            background-repeat:   no-repeat;
+            background-position: center center; 
+        }
+        .div2 { grid-area: 6 / 1 / 10 / 5;
+            background-color: rgb(52, 47, 29);
+            background-image:    url(./flipbg.gif);
+            background-size:     contain;              
+            background-repeat:   no-repeat;
+            background-position: center center; 
+        }
+        .div3 { grid-area: 1 / 5 / 5 / 9;
+            background-color: rgb(72, 28, 32);
+            background-image:    url(./slotbg.gif);
+            background-size:     contain;              
+            background-repeat:   no-repeat;
+            background-position: center center; 
+        }
+        .div4 { grid-area: 6 / 5 / 10 / 9;
+            background-color: rgb(40,173,255);
+            background-image:    url(./bluebg.gif);
+            background-size:     contain;              
+            background-repeat:   no-repeat;
+            background-position: center center; 
+        }
+        .div5 { grid-area: 3 / 4 / 8 / 6;
+       
+        }
+        .div6 { grid-area: 5 / 1 / 6 / 4;
+                background-color: rgb(88, 0, 0)
+               
+        }
+        .div7 { grid-area: 5 / 6 / 6 / 9;
+            background-color: rgb(88, 0, 0)
+            
+        }
+        .div8 { grid-area: 2 / 2 / 3 / 4;
+
+        }
+        .div9 { grid-area: 2 / 6 / 3 / 8; }
+        .div10 { grid-area: 7 / 2 / 8 / 4; }
+        .div11 { grid-area: 7 / 6 / 8 / 8; }
+
+        .logopic {
+            height: 100%;
+            width: auto;
+            padding-left:10%;
+            z-index: 4;
+        }
+        .h11 {
+          background-color: rgba(0, 0, 0, 0.56);
+          color: aliceblue;
+            font-size: 2rem;
+            text-align: center;
+            border-radius: 7px;
+            padding: 5px 0;
+            line-height: 3rem;
+            text-decoration: none;
+            transition: all .2s ease-in;
+        }
+        .h11:hover {
+            transform: scale(1.07);
+            background-color: rgba(11, 11, 11, 0.815);
+          color: rgb(83, 232, 255);
+            letter-spacing: 2px;
+        }
+                .h1 {
+            color: #ffffff;
+            font-size: 2.5rem;
+            line-height: 4rem;
+        }
+        .jackof {
+            text-align: end;
+        }
+        .alltrades {
+            margin-left: 2rem;
+        }
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+        @media only screen and (max-width: 600px) {
+            .div1, .div2, .div3, .div4 {
+                max-width: 50vw !important;
+            }
+      
+        .h11 {
+          background-color: rgba(0, 0, 0, 0.56);
+          color: aliceblue;
+            font-size: 0.7rem;
+            text-align: center;
+            border-radius: 7px;
+            padding: 5px 0;
+            line-height: 1.2rem;
+            text-decoration: none;
+        }
+                .h1 {
+            color: #ffffff;
+            font-size: 1rem;
+            line-height: 1.5rem;
+          
+        }
+        .jackof {
+            text-align: end;
+    
+        }
+        .alltrades {
+            margin-left: 0.7rem;
+        }
+    
+        .div5 { 
+       width: fit-content;
+       z-index: 4000000;
+       position: relative; }
+button, a {
+    font-size: 20px !important;
+}
+
+       
+   
+
+    .logopic {
+            height: 40%;
+            width: auto;
+        padding: 0;
+        margin-top:100% ;
+            z-index: 4;
+            
+        }
+        }
+    </style>
+    <title>PAYPAY</title>
+</head>
+<body class="parent">
+<style>
+    button {
+        background-color: rgb(39, 39, 39);
+        color: rgb(255, 255, 255);
+        padding: 6px;
+        border-radius: 6px;
+        font-size: 38px;
+        margin: 0 5px;
+        transition: all .5s ease-in-out;
+    }
+    button:hover, a:hover {
+        transform: scale(1.05);
+        background-color: rgb(0, 154, 214);
+        color: black;
+    }
+</style>
+        <div class="div1"> </div>
+        <div class="div2"> </div>
+        <div class="div3"> </div>
+        <div class="div4">
+            <div  style="position: absolute; right: 0; bottom: 0; display: flex; flex-direction: row; min-width: 1rem; justify-content: space-between; height: auto; margin: 0 10px 10px 0; " >
+                <a href="https://t.me/PAYPAY" target="_blank"> <button style="   font-family: 'Press Start 2P', cursive;" ><img src="./icons8-telegram.svg" alt="">TELEGRAM</button></a>   
+                <a href="https://twitter.com/paypay" target="_blank"> <button style="   font-family: 'Press Start 2P', cursive;" ><img src="./icons8-twitterx.svg" alt="">TWITTER</button></a>    
+            </div>
+        </div> 
+        </div>
+        <div class="div5"> 
+                <img class="logopic" src="./jacklogo.png" alt="">
+
+        </div>
+        <div class="div6"> 
+           <h1 class="h1 jackof" >PAY</h1>
+        </div>
+        <div class="div7"> 
+          <h1 class="h1 alltrades" >PAY</h1>
+       </div>
+        <div class="div8">      <a href="https://roulette.jackoftrades.app/" target="_blank">    <h1 class="h11" >ROULETTE</h1> </a> 
+        
+        </div>
+        <div class="div9">      <a href="https://slots.jackoftrades.app/" target="_blank">    <h1 class="h11" >SLOT MACHINE</h1> </a>
+        
+        </div>
+        <div class="div10">           <h1 class="h11" >COMING SOON</h1>
+        
+        </div>
+        <div class="div11">           <h1 class="h11" >COMING SOON</h1>
+        
+        </div>
+
+</body>
+</html>
